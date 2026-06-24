@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
 <title>Advogado Trabalhista | Fábio Azeredo Advocacia</title>
 <meta name="description" content="Orientação jurídica para trabalhadores em casos de demissão, horas extras, FGTS, rescisão indireta, acidente de trabalho e outras irregularidades trabalhistas.">
 <meta name="author" content="Fábio Azeredo Advocacia">
@@ -16,6 +17,7 @@
 <style>
 /* ============ TOKENS ============ */
 :root{
+  color-scheme:light only;
   --navy:#102A43;
   --petrol:#174A5B;
   --teal:#1F7A76;
@@ -341,6 +343,7 @@ form.lead-form{background:var(--gray-bg);border-radius:var(--radius);padding:cla
   .hero-cta{justify-content:center}
   .hero-note{justify-content:center}
   .hero-photo{max-width:420px;margin:0 auto;order:-1}
+  .hero-badge{position:static;transform:none;left:auto;bottom:auto;margin:14px auto 0;max-width:360px;width:100%}
   .alert-grid,.inst-grid,.form-grid{grid-template-columns:1fr}
   .steps-grid{grid-template-columns:1fr}
   .step:not(:last-child)::after{display:none}
@@ -359,8 +362,8 @@ form.lead-form{background:var(--gray-bg);border-radius:var(--radius);padding:cla
   .fab{padding:15px;right:18px;bottom:18px}
   .hero-cta .btn{width:100%}
   .btn{width:100%}
-  .hero-badge{left:50%;transform:translateX(-50%);bottom:-26px}
-  .hero-photo{margin-bottom:38px}
+  .hero-badge{position:static;transform:none;left:auto;bottom:auto;max-width:none;width:100%;margin-top:14px}
+  .hero-photo{margin-bottom:0}
   .section{padding:52px 0}
   .trust .wrap{flex-direction:column;align-items:flex-start;gap:14px}
 }
