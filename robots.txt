@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://advfabioazeredo.com.br/sitemap.xml
